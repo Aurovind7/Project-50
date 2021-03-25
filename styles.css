@@ -16,9 +16,10 @@
 }
 
 .origami {
-  border-radius: 50px;
+  border-radius: 20px;
   background-color: white;
-
+  padding: 30px;
+  margin: 25px;
   width: 310px;
   font-family: Comic Sans MS;
   font-size: 20px;
@@ -39,6 +40,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   background-color: black;
+  padding: 15x;
   font-size: 20px;
   font-family: sans-serif;
   font-weight: 400;
@@ -46,5 +48,21 @@ h2 {
 }
 
 body {
+  margin: 0px;
   background-color: whitesmoke;
+}
+
+.bodyimg {
+  position: relative;
+  opacity: 1;
+}
+
+.bodyimg p {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
 }
